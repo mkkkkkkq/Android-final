@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--name== 是数组名字-->
+    <string-array name="receive_reason">
+
+        <item>@string/edit_receive_reason_hint</item>
+        <item>结婚大喜</item>
+        <item>新造华堂</item>
+        <item>金榜题名</item>
+        <item>生日快乐</item>
+        <item>其他</item>
+    </string-array>
+</resources>

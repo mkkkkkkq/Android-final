@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- NoActionBar主题-->
+    <style name="AppThemeLightNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppThemeLightNoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppThemeLightNoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="dataStyle" parent="Widget.MaterialComponents.MaterialCalendar">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+
+    <style name="receive_reason_style" parent="Widget.AppCompat.TextView">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+
+
+</resources>

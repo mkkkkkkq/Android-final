@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/edit_receive_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/edit_receive_name_hint"
+        android:textSize="15sp"/>
+    <EditText
+        android:id="@+id/edit_receive_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:textIsSelectable="false"
+        android:hint="@string/edit_receive_reason_hint"
+        android:textSize="15sp"/>
+
+
+    <EditText
+        android:id="@+id/edit_receive_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:maxLength="5"
+        android:hint="输入金额(最大9999元)"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/colorTextGreen"
+        android:ems="12"
+        android:textSize="17sp"
+        android:text="@string/text_datapicker" />
+
+    <DatePicker
+        android:id="@+id/dp_receive_data"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"/>
+</LinearLayout>

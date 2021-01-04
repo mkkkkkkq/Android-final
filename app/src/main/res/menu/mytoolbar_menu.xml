@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mytoolbar_statistics"
+        android:icon="@drawable/draw_mytoolbar_statistics"
+        android:title="@string/statistics"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/mytoolbar_search"
+        android:icon="@drawable/draw_mytoolbar_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"
+        />
+</menu>
